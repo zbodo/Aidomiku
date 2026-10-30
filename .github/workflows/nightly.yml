@@ -46,38 +46,3 @@ jobs:
           name: ${{ steps.ios_pkg.outputs.ipa }}
           path: ${{ steps.ios_pkg.outputs.ipa }}
           if-no-files-found: error
-
-      - name: Build Mac Catalyst
-        run: >
-          xcodebuild -scheme "Aidoku" -configuration Release
-          -destination 'generic/platform=macOS,variant=Mac Catalyst'
-          archive -archivePath build/Aidoku-macOS.xcarchive
-          -skipPackagePluginValidation
-          CODE_SIGN_IDENTITY= CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
-          SUPPORTS_MACCATALYST=YES
-
-      - name: Package Mac dmg
-        id: mac_pkg
-        run: |
-          set -euo pipefail
-          shopt -s nullglob
-          apps=(build/Aidoku-macOS.xcarchive/Products/Applications/*.app)
-          if [ ${#apps[@]} -ne 1 ]; then
-            echo "Expected exactly one .app in Mac archive, found: ${#apps[@]}"
-            printf '%s\n' "${apps[@]:-}"
-            exit 1
-          fi
-          APP_PATH="${apps[0]}"
-          APP_NAME="$(basename "$APP_PATH" .app)"
-          DMG="${APP_NAME}-macOS_nightly-${{ steps.commitinfo.outputs.sha_short }}.dmg"
-          STAGE="$(mktemp -d)"
-          cp -R "$APP_PATH" "$STAGE/"
-          hdiutil create -volname "$APP_NAME" -srcfolder "$STAGE" -ov -format UDZO "$DMG"
-          echo "dmg=$DMG" >> "$GITHUB_OUTPUT"
-
-      - name: Upload Mac dmg
-        uses: actions/upload-artifact@v4
-        with:
-          name: ${{ steps.mac_pkg.outputs.dmg }}
-          path: ${{ steps.mac_pkg.outputs.dmg }}
-          if-no-files-found: error
