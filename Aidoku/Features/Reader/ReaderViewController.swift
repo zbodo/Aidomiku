@@ -1508,14 +1508,14 @@ extension ReaderViewController: UIPencilInteractionDelegate {
 
     }
 
-    private func nextPage() {
+    @objc private func nextPage() {
         switch readingMode {
             case .rtl: reader?.moveLeft()
             default: reader?.moveRight()
         }
     }
 
-    private func previousPage() {
+    @objc private func previousPage() {
         switch readingMode {
             case .rtl: reader?.moveRight()
             default: reader?.moveLeft()
@@ -1702,6 +1702,26 @@ extension ReaderViewController {
                 title: NSLocalizedString("TURN_PAGE_RIGHT"),
                 action: #selector(moveRight),
                 input: UIKeyCommand.inputRightArrow
+            ),
+            UIKeyCommand(
+                input: UIKeyCommand.inputUpArrow,
+                modifierFlags: [],
+                action: #selector(previousPage)
+            ),
+            UIKeyCommand(
+                input: UIKeyCommand.inputPageUp,
+                modifierFlags: [],
+                action: #selector(previousPage)
+            ),
+            UIKeyCommand(
+                input: UIKeyCommand.inputDownArrow,
+                modifierFlags: [],
+                action: #selector(nextPage)
+            ),
+            UIKeyCommand(
+                input: UIKeyCommand.inputPageDown,
+                modifierFlags: [],
+                action: #selector(nextPage)
             ),
             UIKeyCommand(
                 title: NSLocalizedString("TOGGLE_PAGE_OFFSET"),
