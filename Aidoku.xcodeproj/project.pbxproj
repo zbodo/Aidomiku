@@ -31,7 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FB1B4835277CE1920056D02C /* Aidoku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aidoku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1B4835277CE1920056D02C /* Aidomiku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aidomiku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB4EEBDF27A4F5C1005081A3 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
 		FBB44E722EC635620032EFBB /* AidokuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AidokuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -97,7 +97,7 @@
 		FB1B4836277CE1920056D02C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FB1B4835277CE1920056D02C /* Aidoku.app */,
+				FB1B4835277CE1920056D02C /* Aidomiku.app */,
 				FBB44E722EC635620032EFBB /* AidokuTests.xctest */,
 			);
 			name = Products;
@@ -152,7 +152,7 @@
 				EE7A41CA2F5CF7710044AF4C /* CHoshiDicts */,
 			);
 			productName = "Aidoku (iOS)";
-			productReference = FB1B4835277CE1920056D02C /* Aidoku.app */;
+			productReference = FB1B4835277CE1920056D02C /* Aidomiku.app */;
 			productType = "com.apple.product-type.application";
 		};
 		FBB44E712EC635620032EFBB /* AidokuTests */ = {
@@ -519,7 +519,7 @@
 				);
 				MARKETING_VERSION = 0.9;
 				PRODUCT_BUNDLE_IDENTIFIER = xu.aidoku.Aidomiku;
-				PRODUCT_NAME = Aidoku;
+				PRODUCT_NAME = Aidomiku;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -565,7 +565,7 @@
 				);
 				MARKETING_VERSION = 0.9;
 				PRODUCT_BUNDLE_IDENTIFIER = xu.aidoku.Aidomiku;
-				PRODUCT_NAME = Aidoku;
+				PRODUCT_NAME = Aidomiku;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
