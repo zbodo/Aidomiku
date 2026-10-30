@@ -500,7 +500,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Aidoku/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Aidoku;
+				INFOPLIST_KEY_CFBundleDisplayName = Aidomiku;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = NO;
@@ -546,7 +546,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Aidoku/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Aidoku;
+				INFOPLIST_KEY_CFBundleDisplayName = Aidomiku;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = NO;
