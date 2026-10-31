@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FB1B4834277CE1920056D02C"
-               BuildableName = "Aidoku.app"
+               BuildableName = "Aidomiku.app"
                BlueprintName = "Aidoku"
                ReferencedContainer = "container:Aidoku.xcodeproj">
             </BuildableReference>
@@ -56,7 +56,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FB1B4834277CE1920056D02C"
-            BuildableName = "Aidoku.app"
+            BuildableName = "Aidomiku.app"
             BlueprintName = "Aidoku"
             ReferencedContainer = "container:Aidoku.xcodeproj">
          </BuildableReference>
@@ -98,7 +98,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FB1B4834277CE1920056D02C"
-            BuildableName = "Aidoku.app"
+            BuildableName = "Aidomiku.app"
             BlueprintName = "Aidoku"
             ReferencedContainer = "container:Aidoku.xcodeproj">
          </BuildableReference>
