@@ -5,7 +5,7 @@
 //  Created by Skitty on 12/5/25.
 //
 
-@testable import Aidoku
+@testable import Aidomiku
 import AidokuRunner
 import Foundation
 import Testing

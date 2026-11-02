@@ -9,7 +9,7 @@ import AidokuRunner
 import Testing
 import UIKit
 
-@testable import Aidoku
+@testable import Aidomiku
 
 actor TestableTracker: Tracker {
     let id = "test"

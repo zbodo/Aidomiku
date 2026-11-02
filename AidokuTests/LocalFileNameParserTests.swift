@@ -6,7 +6,7 @@
 //
 
 import Testing
-@testable import Aidoku
+@testable import Aidomiku
 
 // https://github.com/Kareadita/Kavita/blob/develop/API.Tests/Parsing/MangaParsingTests.cs
 @Suite struct LocalFileNameParserTests {

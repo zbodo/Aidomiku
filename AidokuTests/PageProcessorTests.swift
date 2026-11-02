@@ -5,7 +5,7 @@
 //  Created by skitty on 8/21/26.
 //
 
-@testable import Aidoku
+@testable import Aidomiku
 import AidokuRunner
 import Foundation
 import Nuke

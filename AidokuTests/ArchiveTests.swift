@@ -6,7 +6,7 @@
 import Foundation
 import Testing
 import ZIPFoundation
-@testable import Aidoku
+@testable import Aidomiku
 
 @Suite struct ArchiveTests {
     /// Builds an archive on disk containing one entry per given path.

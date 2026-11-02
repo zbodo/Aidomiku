@@ -5,7 +5,7 @@
 //  Created by neldra on 5/24/26.
 //
 
-@testable import Aidoku
+@testable import Aidomiku
 import Foundation
 import Nuke
 import Testing

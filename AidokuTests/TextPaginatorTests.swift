@@ -5,7 +5,7 @@
 
 import Testing
 import UIKit
-@testable import Aidoku
+@testable import Aidomiku
 
 @Suite struct TextPaginatorTests {
     private let pageSize = CGSize(width: 320, height: 480)

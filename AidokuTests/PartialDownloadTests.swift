@@ -5,7 +5,7 @@
 //  Created by Pietro Baiguini on 8/20/26.
 //
 
-@testable import Aidoku
+@testable import Aidomiku
 import Foundation
 import Testing
 
