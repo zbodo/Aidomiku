@@ -27,7 +27,7 @@ actor TestableTracker: Tracker {
         lastReadVolume = volume
     }
 
-    func getTrackerInfo() async throws -> Aidoku.TrackerInfo {
+    func getTrackerInfo() async throws -> Aidomiku.TrackerInfo {
         .init(supportedStatuses: [], scoreType: .tenPoint)
     }
 
@@ -35,9 +35,9 @@ actor TestableTracker: Tracker {
         nil
     }
 
-    func update(trackId: String, update: Aidoku.TrackUpdate) async throws {}
+    func update(trackId: String, update: Aidomiku.TrackUpdate) async throws {}
 
-    func getState(trackId: String) async throws -> Aidoku.TrackState {
+    func getState(trackId: String) async throws -> Aidomiku.TrackState {
         .init(
             score: nil,
             status: nil,
@@ -54,11 +54,11 @@ actor TestableTracker: Tracker {
         nil
     }
 
-    func search(for manga: AidokuRunner.Manga, includeNsfw: Bool) async throws -> [Aidoku.TrackSearchItem] {
+    func search(for manga: AidokuRunner.Manga, includeNsfw: Bool) async throws -> [Aidomiku.TrackSearchItem] {
         []
     }
 
-    func search(title: String, includeNsfw: Bool) async throws -> [Aidoku.TrackSearchItem] {
+    func search(title: String, includeNsfw: Bool) async throws -> [Aidomiku.TrackSearchItem] {
         []
     }
 
