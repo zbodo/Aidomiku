@@ -681,7 +681,7 @@
 "PORTRAIT_ROWS" = "Hàng dọc";
 "RESUME_LAST_OPENED_CHAPTER" = "Tiếp tục chương cuối cùng đã mở";
 "DISABLE_DOUBLE_TAP_ZOOM" = "Tắt tính năng nhấn đúp để thu phóng";
-"HIDE_BARS_ON_SWIPE" = "Ẩn thanh thông báo khi vuốt";
+"HIDE_BARS_ON_PAGE_TURN" = "Ẩn thanh khi chuyển trang";
 "TEXT_READER" = "Trình đọc văn bản";
 "TEXT_READER_STYLE" = "Kiểu đọc";
 "TEXT_READER_SCROLL" = "Cuộn";

@@ -677,7 +677,7 @@
 "LEGACY_SOURCE_LIST" = "Liste des sources héritées";
 "LEGACY_SOURCE_LIST_WARNING" = "Attention : liste des sources héritées";
 "LEGACY_SOURCE_LIST_WARNING_INFO" = "Vous avez actuellement une liste de sources héritées configurée. Ce format est dépassé et cessera de fonctionner dans une version future d'Aidoku. Bien qu'elle fonctionne encore pour l'instant, il est recommandé de trouver un remplacement et de la configurer dans Paramètres > Liste de sources.";
-"HIDE_BARS_ON_SWIPE" = "Cacher les barres lors du balayage";
+"HIDE_BARS_ON_PAGE_TURN" = "Masquer les barres au changement de page";
 "SAVE" = "Enregistrer";
 "SAVED_SEARCHES" = "Recherches enregistrées";
 "NAME_SAVED_SEARCH" = "Nommer une recherche enregistrée";

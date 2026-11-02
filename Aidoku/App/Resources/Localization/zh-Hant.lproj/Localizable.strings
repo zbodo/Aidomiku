@@ -670,7 +670,7 @@
 "LEGACY_SOURCE_LIST" = "舊版來源列表";
 "LEGACY_SOURCE_LIST_WARNING" = "警告：舊版來源列表";
 "LEGACY_SOURCE_LIST_WARNING_INFO" = "你目前配置的是舊版來源列表。此格式已過時，將在未來的 Aidoku 版本中停止運作。雖然目前仍可正常使用，但我們建議你尋找替代來源列表，並在「設定」>「來源列表」中進行設定。";
-"HIDE_BARS_ON_SWIPE" = "滑動時隱藏工具列";
+"HIDE_BARS_ON_PAGE_TURN" = "翻頁時隱藏工具列";
 "EDIT" = "編輯";
 "UNCATEGORIZED" = "未分類";
 "FILTER_GROUPS" = "過濾群組";

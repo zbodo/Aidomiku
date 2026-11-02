@@ -668,7 +668,7 @@
 "DISABLE_QUICK_ACTIONS" = "Hızlı Eylemleri Devre Dışı Bırak";
 "DISABLE_DOUBLE_TAP_ZOOM" = "Çift Dokunma Yakınlaştırmasını Devre Dışı Bırak";
 "LIVE_TEXT" = "Canlı Metin";
-"HIDE_BARS_ON_SWIPE" = "Kaydırınca Çubukları Gizle";
+"HIDE_BARS_ON_PAGE_TURN" = "Sayfa Çevirirken Çubukları Gizle";
 "READER_BG_COLOR_AUTO" = "Otomatik";
 "TAP_ZONES" = "Dokunma Alanları";
 "ZONE_LEFT_RIGHT" = "Sol ve Sağ";

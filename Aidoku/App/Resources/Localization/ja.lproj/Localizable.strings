@@ -647,7 +647,7 @@
 "DISABLE_QUICK_ACTIONS" = "クイックアクションを無効化";
 "DISABLE_DOUBLE_TAP_ZOOM" = "ダブルタップで拡大を無効化";
 "LIVE_TEXT" = "テキスト認識表示";
-"HIDE_BARS_ON_SWIPE" = "スワイプ時にバーを非表示";
+"HIDE_BARS_ON_PAGE_TURN" = "ページ送り時にバーを非表示";
 "READER_BG_COLOR_AUTO" = "自動";
 "TAP_ZONES" = "タップゾーン";
 "ZONE_LEFT_RIGHT" = "左右";

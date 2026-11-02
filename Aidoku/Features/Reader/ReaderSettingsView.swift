@@ -299,7 +299,7 @@ extension ReaderSettingsView {
             SettingView(
                 setting: .init(
                     key: "Reader.hideBarsOnSwipe",
-                    title: NSLocalizedString("HIDE_BARS_ON_SWIPE"),
+                    title: NSLocalizedString("HIDE_BARS_ON_PAGE_TURN"),
                     value: .toggle(.init())
                 )
             )

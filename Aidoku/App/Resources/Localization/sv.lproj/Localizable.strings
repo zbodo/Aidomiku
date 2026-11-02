@@ -690,7 +690,7 @@
 "ENHANCED_TRACKERS_INFO" = "Förbättrade trackers kan automatiskt länka till objekt som lagts till i ditt bibliotek från källor som stöds, vilket spårar läshistoriken i båda riktningarna.";
 "ENHANCED_TRACKERS_TOGGLE_INFO" = "Att inaktivera tracking för en källa tar bort alla länkade trackers, och att aktivera det länkar automatiskt alla objekt i ditt bibliotek.";
 "TRACKER_LOGOUT_INFO" = "Att logga ut tar bort länkad tracking-info från den här trackern för alla serier.";
-"HIDE_BARS_ON_SWIPE" = "Göm rader vid svepning";
+"HIDE_BARS_ON_PAGE_TURN" = "Dölj fält vid sidbyte";
 "TEXT_READER_PAGED" = "Sidad";
 "REFRESH_NO_WIFI" = "Inte ansluten till Wi-fi";
 "REFRESH_NO_WIFI_TEXT" = "Inställningen \"Uppdatera endast via Wi-Fi\" är på, så biblioteket kan inte laddas om tills du är ansluten till ett Wi-Fi nätverk.";

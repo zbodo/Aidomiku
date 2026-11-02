@@ -667,7 +667,7 @@
 "LEGACY_SOURCE_LIST" = "旧版图源列表";
 "LEGACY_SOURCE_LIST_WARNING" = "警告：旧版图源列表";
 "LEGACY_SOURCE_LIST_WARNING_INFO" = "您当前已配置旧版图源列表。此格式已过时，将在 Aidoku 的未来版本中停止支持。虽然目前仍可正常使用，但建议您寻找替代方案，并在「设置」>「图源列表」中进行配置。";
-"HIDE_BARS_ON_SWIPE" = "滑动时隐藏栏";
+"HIDE_BARS_ON_PAGE_TURN" = "翻页时隐藏栏";
 "IMPORT_BACKUP" = "导入备份";
 "SYNC_WITH_TRACKER" = "与追踪器同步";
 "SYNC_WITH_TRACKER_INFO_%i" = "追踪器检测到 %i 个章节已阅读。您要将这些章节标记为已读吗？";

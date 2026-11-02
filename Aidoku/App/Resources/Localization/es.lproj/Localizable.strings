@@ -676,7 +676,7 @@
 "LEGACY_SOURCE_LIST" = "Listado origen heredado";
 "LEGACY_SOURCE_LIST_WARNING" = "Aviso: Listado de origen heredado";
 "LEGACY_SOURCE_LIST_WARNING_INFO" = "Actualmente tiene configurado un listado origen heredado. Este formato está obsoleto y detendrá su trabajo en una versión futura de Aidoku. Mientras aún funcione por ahora, es recomendable que encuentra un sustituto y lo configure en Ajustes > Listados de origen.";
-"HIDE_BARS_ON_SWIPE" = "Ocultar barras al golpear";
+"HIDE_BARS_ON_PAGE_TURN" = "Ocultar barras al pasar página";
 "TEXT_READER" = "Lector de texto";
 "TEXT_READER_STYLE" = "Estilo del lector";
 "TEXT_READER_PAGED" = "Paginado";
