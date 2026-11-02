@@ -1508,7 +1508,14 @@ extension ReaderViewController: UIPencilInteractionDelegate {
 
     }
 
+    private func hideBarsForPageTurnIfNeeded() {
+        if UserDefaults.standard.bool(forKey: "Reader.hideBarsOnSwipe") {
+            hideBars()
+        }
+    }
+
     @objc private func nextPage() {
+        hideBarsForPageTurnIfNeeded()
         switch readingMode {
             case .rtl: reader?.moveLeft()
             default: reader?.moveRight()
@@ -1516,6 +1523,7 @@ extension ReaderViewController: UIPencilInteractionDelegate {
     }
 
     @objc private func previousPage() {
+        hideBarsForPageTurnIfNeeded()
         switch readingMode {
             case .rtl: reader?.moveRight()
             default: reader?.moveLeft()
@@ -1759,10 +1767,12 @@ extension ReaderViewController {
     }
 
     @objc func moveLeft() {
+        hideBarsForPageTurnIfNeeded()
         reader?.moveLeft()
     }
 
     @objc func moveRight() {
+        hideBarsForPageTurnIfNeeded()
         reader?.moveRight()
     }
 
